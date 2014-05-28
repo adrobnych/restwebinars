@@ -30,9 +30,6 @@ public class AdminTest extends JerseyTest {
 		ClientResponse response = webResource.path("setrate").type("application/xml").post(ClientResponse.class, input);
 
         assertEquals(204, response.getStatus());
-        
-        String responseCheckRate = webResource.path("checkrate").get(String.class);
-        assertTrue(responseCheckRate.contains("<factor>12.23</factor>"));
     }
     
     @Test
