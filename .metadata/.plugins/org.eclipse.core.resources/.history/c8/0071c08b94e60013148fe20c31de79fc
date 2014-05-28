@@ -1,0 +1,10 @@
+package com.sysiq.restwebinars.admin_client.model.helpers;
+
+public class ExchangeDispatcher {
+
+	public void setRate(double d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

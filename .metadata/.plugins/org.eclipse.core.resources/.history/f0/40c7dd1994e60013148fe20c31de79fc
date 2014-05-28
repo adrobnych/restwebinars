@@ -1,0 +1,15 @@
+package com.sysiq.restwebinars.admin_client_spec;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+
+	public class ExchangeDispatcherSpec{
+
+
+	    @Test
+	    public void testSetRate() {
+	        
+	    }
+
+	}

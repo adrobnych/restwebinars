@@ -1,0 +1,47 @@
+package com.sysiq.restwebinars.admin_client.model.helpers;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+public class ExchangeDispatcher {
+	
+	private Client client = null;
+	private WebResource checkRateResource = null;
+	private WebResource setRateResource = null;
+	
+	private ExchangeDispatcher(){}
+	
+	public static ExchangeDispatcher createInstance(){
+		ExchangeDispatcher ed = new ExchangeDispatcher();
+		ed.client = Client.create();
+		ed.checkRateResource = ed.client.resource("http://localhost:9998/checkrate");
+		ed.setRateResource = ed.client.resource("http://localhost:9998/setrate");
+		
+		return ed;
+	}
+
+	public void setRate(double rate) {
+		String input = 	"<setrate xmlns=\"http://schemas.restexchange.com/setrate\">"+
+				"<items>"+
+					"<item>"+
+						"<from>USD</from>"+
+						"<to>UAH</to>"+
+						"<factor>" + rate + "</factor>"+
+					"</item>"+
+				"</items>"+
+			"</setrate>";
+
+		ClientResponse response = setRateResource.path("setrate").type("application/xml").post(ClientResponse.class, input);
+		if (response.getStatus() != 204)
+			   throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
+	}
+
+	public double getRate() {
+		String responseCheckRate = checkRateResource.path("checkrate").get(String.class);
+		System.out.println("***************************************************");
+		System.out.println(responseCheckRate);
+		return 0;
+	}
+
+}

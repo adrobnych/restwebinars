@@ -13,19 +13,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "e5589ea004bd27f096792629eee6e30d3f25fe2c",
-    "jarFileModificationDate": "2013-12-03T10:15:57.591+02:00",
-    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
-    "javaRuntime": true
-  },
-  {
     "symbolicName": "org.glassfish.grizzly.rcm",
     "version": {
       "major": 2,
@@ -46,9 +33,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "a22ccb0236f5d475302a3f538d923d6cf05c68cd",
-    "jarFileModificationDate": "2013-12-03T10:15:54.600+02:00",
-    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\access-bridge-64.jar",
+    "jarFileFingerprint": "e5589ea004bd27f096792629eee6e30d3f25fe2c",
+    "jarFileModificationDate": "2013-12-03T10:15:57.591+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
     "javaRuntime": true
   },
   {
@@ -62,6 +49,19 @@
     "jarFileFingerprint": "f4150db54a3200189411d612ea21ce4a8a614bb3",
     "jarFileModificationDate": "2013-12-03T10:15:54.706+02:00",
     "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a22ccb0236f5d475302a3f538d923d6cf05c68cd",
+    "jarFileModificationDate": "2013-12-03T10:15:54.600+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\access-bridge-64.jar",
     "javaRuntime": true
   },
   {
@@ -377,16 +377,16 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "com.sun.jersey.grizzly2",
+    "symbolicName": "org.glassfish.javax.servlet",
     "version": {
-      "major": 1,
-      "minor": 9,
-      "micro": 1,
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "681aa039457264f5ff8a732819face4256f01c39",
-    "jarFileModificationDate": "2014-05-27T18:24:33.443+03:00",
-    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.9.1\\jersey-grizzly2-1.9.1.jar",
+    "jarFileFingerprint": "ab7db738667bea1b937efcf3a1845c0d28e6beaf",
+    "jarFileModificationDate": "2014-05-27T18:25:08.419+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\javax.servlet\\3.1\\javax.servlet-3.1.jar",
     "javaRuntime": false
   },
   {
@@ -403,16 +403,16 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "org.glassfish.javax.servlet",
+    "symbolicName": "com.sun.jersey.grizzly2",
     "version": {
-      "major": 3,
-      "minor": 1,
-      "micro": 0,
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
       "qualifier": ""
     },
-    "jarFileFingerprint": "ab7db738667bea1b937efcf3a1845c0d28e6beaf",
-    "jarFileModificationDate": "2014-05-27T18:25:08.419+03:00",
-    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\javax.servlet\\3.1\\javax.servlet-3.1.jar",
+    "jarFileFingerprint": "681aa039457264f5ff8a732819face4256f01c39",
+    "jarFileModificationDate": "2014-05-27T18:24:33.443+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.9.1\\jersey-grizzly2-1.9.1.jar",
     "javaRuntime": false
   }
 ]

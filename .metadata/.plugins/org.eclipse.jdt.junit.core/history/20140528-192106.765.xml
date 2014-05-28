@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="com.sysiq.restwebinars.restexchange1" project="restexchange1" tests="4" started="4" failures="0" errors="2" ignored="0">
+  <testsuite name="com.sysiq.restwebinars.restexchange1.AdminTest" time="1.779">
+    <testcase name="testSetRateError" classname="com.sysiq.restwebinars.restexchange1.AdminTest" time="1.356"/>
+    <testcase name="testSetRate" classname="com.sysiq.restwebinars.restexchange1.AdminTest" time="0.423"/>
+  </testsuite>
+  <testsuite name="com.sysiq.restwebinars.restexchange1.MainTest" time="0.018">
+    <testcase name="testHelloWorld" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="0.012">
+      <error>com.sun.jersey.test.framework.spi.container.TestContainerException: java.net.BindException: Address already in use: bind&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.instantiateGrizzlyWebServer(GrizzlyWebTestContainerFactory.java:221)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.&lt;init&gt;(GrizzlyWebTestContainerFactory.java:129)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.&lt;init&gt;(GrizzlyWebTestContainerFactory.java:86)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory.create(GrizzlyWebTestContainerFactory.java:79)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.getContainer(JerseyTest.java:342)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.&lt;init&gt;(JerseyTest.java:217)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.&lt;init&gt;(JerseyTest.java:235)&#13;
+	at com.sysiq.restwebinars.restexchange1.MainTest.&lt;init&gt;(MainTest.java:56)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)&#13;
+Caused by: java.net.BindException: Address already in use: bind&#13;
+	at sun.nio.ch.Net.bind0(Native Method)&#13;
+	at sun.nio.ch.Net.bind(Unknown Source)&#13;
+	at sun.nio.ch.Net.bind(Unknown Source)&#13;
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)&#13;
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:413)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:384)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:375)&#13;
+	at org.glassfish.grizzly.http.server.NetworkListener.start(NetworkListener.java:549)&#13;
+	at org.glassfish.grizzly.http.server.HttpServer.start(HttpServer.java:255)&#13;
+	at com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory.createHttpServer(GrizzlyServerFactory.java:326)&#13;
+	at com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory.createHttpServer(GrizzlyServerFactory.java:343)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.instantiateGrizzlyWebServer(GrizzlyWebTestContainerFactory.java:219)&#13;
+	... 30 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testApplicationWadl" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="0.006">
+      <error>com.sun.jersey.test.framework.spi.container.TestContainerException: java.net.BindException: Address already in use: bind&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.instantiateGrizzlyWebServer(GrizzlyWebTestContainerFactory.java:221)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.&lt;init&gt;(GrizzlyWebTestContainerFactory.java:129)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.&lt;init&gt;(GrizzlyWebTestContainerFactory.java:86)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory.create(GrizzlyWebTestContainerFactory.java:79)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.getContainer(JerseyTest.java:342)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.&lt;init&gt;(JerseyTest.java:217)&#13;
+	at com.sun.jersey.test.framework.JerseyTest.&lt;init&gt;(JerseyTest.java:235)&#13;
+	at com.sysiq.restwebinars.restexchange1.MainTest.&lt;init&gt;(MainTest.java:56)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)&#13;
+Caused by: java.net.BindException: Address already in use: bind&#13;
+	at sun.nio.ch.Net.bind0(Native Method)&#13;
+	at sun.nio.ch.Net.bind(Unknown Source)&#13;
+	at sun.nio.ch.Net.bind(Unknown Source)&#13;
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)&#13;
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:413)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:384)&#13;
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:375)&#13;
+	at org.glassfish.grizzly.http.server.NetworkListener.start(NetworkListener.java:549)&#13;
+	at org.glassfish.grizzly.http.server.HttpServer.start(HttpServer.java:255)&#13;
+	at com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory.createHttpServer(GrizzlyServerFactory.java:326)&#13;
+	at com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory.createHttpServer(GrizzlyServerFactory.java:343)&#13;
+	at com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer.instantiateGrizzlyWebServer(GrizzlyWebTestContainerFactory.java:219)&#13;
+	... 30 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

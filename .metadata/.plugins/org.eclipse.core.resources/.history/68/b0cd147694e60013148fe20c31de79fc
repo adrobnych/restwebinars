@@ -1,0 +1,5 @@
+package com.sysiq.restwebinars.admin_client.model.helpers;
+
+public class ExchangeDispatcher {
+
+}

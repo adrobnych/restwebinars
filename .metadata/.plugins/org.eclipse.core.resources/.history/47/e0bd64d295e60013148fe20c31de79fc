@@ -1,0 +1,32 @@
+package com.sysiq.restwebinars.admin_client.model.helpers;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
+
+public class ExchangeDispatcher {
+	
+	private Client client = null;
+	private WebResource checkRateResource = null;
+	private WebResource setRateResource = null;
+	
+	private ExchangeDispatcher(){}
+	
+	public ExchangeDispatcher createInstance(){
+		
+		client = Client.create();
+		checkRateResource = client.resource("http://localhost:9998/checkrate");
+		setRateResource = client.resource("http://localhost:9998/setrate");
+		
+		return this;
+	}
+
+	public void setRate(double d) {
+		// TODO Auto-generated method stub
+	}
+
+	public double getRate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

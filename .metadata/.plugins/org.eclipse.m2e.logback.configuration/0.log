@@ -383,3 +383,17 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2014-05-28 18:34:07,724 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2014-05-28 18:34:07,725 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-05-28 18:34:07,726 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-28 19:20:26,025 [Worker-2] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2014-05-28 19:20:26,317 [Worker-2] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2014-05-28 19:20:35,683 [Worker-2] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|http://repo.maven.apache.org/maven2 in 9680 ms
+2014-05-28 20:50:23,537 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sun.jersey.samples:helloworld:1.9.1 @ C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\helloworld-1.9.1\pom.xml.
+2014-05-28 20:50:24,210 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-28 20:50:24,211 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-28 20:50:24,214 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-28 20:50:24,214 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\helloworld-1.9.1\src\test\resources
+2014-05-28 20:50:24,506 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sun.jersey.samples:helloworld:1.9.1 @ C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\pom.xml.
+2014-05-28 20:50:24,667 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-28 20:50:24,667 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-28 20:50:24,669 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-28 20:50:24,669 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-28 21:02:34,578 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
