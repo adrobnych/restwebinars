@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MainTest" project="helloworld" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sun.jersey.samples.helloworld.MainTest" time="2.286">
-    <testcase name="testHelloWorld" classname="com.sun.jersey.samples.helloworld.MainTest" time="1.75"/>
-    <testcase name="testApplicationWadl" classname="com.sun.jersey.samples.helloworld.MainTest" time="0.536"/>
-  </testsuite>
-</testrun>
