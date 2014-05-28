@@ -20,11 +20,13 @@ public class AdminTest extends JerseyTest {
         WebResource webResource = resource();
         
         String input = 	"<setrate xmlns=\"http://schemas.restexchange.com/setrate\">"+
-        					"<item>"+
-        						"<from>USD</from>"+
-        						"<to>UAH</to>"+
-        						"<factor>12.23</factor>"+
-        					"</item>"+
+        					"<items>"+
+        						"<item>"+
+        							"<from>USD</from>"+
+        							"<to>UAH</to>"+
+        							"<factor>12.23</factor>"+
+        						"</item>"+
+        					"</items>"+
         				"</setrate>";
         
 		ClientResponse response = webResource.path("setrate").type("application/xml").post(ClientResponse.class, input);
@@ -40,10 +42,12 @@ public class AdminTest extends JerseyTest {
         WebResource webResource = resource();
         
         String input = 	"<setrate xmlns=\"http://schemas.restexchange.com/setrate\">"+
+        				"<items>"+
         					"<item>"+
         						"<from>USD</from>"+
         						"<to>UAH</to>"+
         					"</item>"+
+        				"</items>"+
         				"</setrate>";
         
 		ClientResponse response = webResource.path("setrate").type("application/xml").post(ClientResponse.class, input);

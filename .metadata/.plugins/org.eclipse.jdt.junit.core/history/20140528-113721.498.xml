@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MainTest" project="restexchange1" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sysiq.restwebinars.restexchange1.MainTest" time="1.818">
-    <testcase name="testApplicationWadl" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="1.369"/>
-    <testcase name="testHelloWorld" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="0.449"/>
-  </testsuite>
-</testrun>

@@ -1,0 +1,418 @@
+[
+  {
+    "symbolicName": "com.sun.jersey.jersey-test-framework.jersey-test-framework-core",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "65338dc1afeaaff7653ea61a338fbdf1a2ff2953",
+    "jarFileModificationDate": "2014-05-27T18:26:35.868+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-test-framework\\jersey-test-framework-core\\1.9.1\\jersey-test-framework-core-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e5589ea004bd27f096792629eee6e30d3f25fe2c",
+    "jarFileModificationDate": "2013-12-03T10:15:57.591+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.glassfish.grizzly.rcm",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "19c3a4301ae7e38eb0518cfd4f3f34223c1b7f39",
+    "jarFileModificationDate": "2014-05-27T18:24:30.616+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-rcm\\2.1.2\\grizzly-rcm-2.1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a22ccb0236f5d475302a3f538d923d6cf05c68cd",
+    "jarFileModificationDate": "2013-12-03T10:15:54.600+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f4150db54a3200189411d612ea21ce4a8a614bb3",
+    "jarFileModificationDate": "2013-12-03T10:15:54.706+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4403cf280affe5cba5e0fa754f1056c4b2de7f19",
+    "jarFileModificationDate": "2013-12-03T10:15:57.621+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5978bc159419ed07f2a57488d10e91f4fd1e3c40",
+    "jarFileModificationDate": "2013-12-03T10:15:54.618+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4838808e80df811cfb2bf7faf361b3cbc16f9f81",
+    "jarFileModificationDate": "2011-08-30T23:05:02+03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3800223b66f57bc4daff4bbd398a65020d901d82",
+    "jarFileModificationDate": "2013-12-03T10:15:54.780+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "asm-3.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c157def142714c544bdea2e6144645702adf7097",
+    "jarFileModificationDate": "2014-05-27T18:25:27.668+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\asm\\asm\\3.1\\asm-3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "management-api",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "b012"
+    },
+    "jarFileFingerprint": "707686d845faede060b79bdf018a25a469a611b4",
+    "jarFileModificationDate": "2014-05-27T18:24:12.550+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\external\\management-api\\3.0.0-b012\\management-api-3.0.0-b012.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "97e3bcb13f325218fcf9d2286aa7ce6e8c231b7a",
+    "jarFileModificationDate": "2013-12-03T10:15:54.675+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.sun.jersey.jersey-core",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf6c0f8b945081fca5f5eb7417d10d58cefd7035",
+    "jarFileModificationDate": "2014-05-27T18:27:06.252+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.9.1\\jersey-core-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.glassfish.grizzly.http-servlet",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "225700354dd0b7bc6132689c4fa046fa69744e20",
+    "jarFileModificationDate": "2014-05-27T18:26:00.753+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-http-servlet\\2.1.2\\grizzly-http-servlet-2.1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.sun.jersey.jersey-server",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e588af0179561bfb9ba63273848129c3a2fd8715",
+    "jarFileModificationDate": "2014-05-27T18:26:29.995+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-server\\1.9.1\\jersey-server-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.sun.jersey.jersey-test-framework.jersey-test-framework-grizzly2",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d3a15fe594a2fe949213ca2fe2c091d2ad13e0ff",
+    "jarFileModificationDate": "2014-05-27T18:25:46.482+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-test-framework\\jersey-test-framework-grizzly2\\1.9.1\\jersey-test-framework-grizzly2-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.glassfish.grizzly.grizzly-framework",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "684c82b28f7e7a53c20d30e69d9787abfeb85d32",
+    "jarFileModificationDate": "2014-05-27T18:26:35.422+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-framework\\2.1.2\\grizzly-framework-2.1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.sun.jersey.jersey-client",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "61bf6dc803ac6f3161d125ceb22d3500f26cd4d8",
+    "jarFileModificationDate": "2014-05-27T18:26:58.512+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-client\\1.9.1\\jersey-client-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95dc9053062d68cde4e8c38494cc63aefd7b0a42",
+    "jarFileModificationDate": "2013-12-03T10:15:54.673+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f831655c50b92c41e366442d09511ea84270c45e",
+    "jarFileModificationDate": "2013-12-03T10:15:54.772+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "28ad63fc2152ff90eba4b7a921dd3f6617acf6f5",
+    "jarFileModificationDate": "2013-12-03T10:15:57.384+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a3d1a9689f1c8e36ab64fb669df92076771c42f2",
+    "jarFileModificationDate": "2013-12-03T10:15:54.704+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.glassfish.grizzly.http-server",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8a1c41c688cb3a34998a3515048a2284e5201192",
+    "jarFileModificationDate": "2014-05-27T18:25:16.961+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-http-server\\2.1.2\\grizzly-http-server-2.1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.servlet-api",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6bf0ebb7efd993e222fc1112377b5e92a13b38dd",
+    "jarFileModificationDate": "2014-05-27T18:26:25.465+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\javax\\servlet\\javax.servlet-api\\3.0.1\\javax.servlet-api-3.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "290db2acdf8d82a3a8c351ce030e0c19ff93b003",
+    "jarFileModificationDate": "2013-12-03T10:15:54.652+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gmbal-api-only",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "b023"
+    },
+    "jarFileFingerprint": "14f077191ad7ec73004ca58de2c90a2137f1d882",
+    "jarFileModificationDate": "2014-05-27T18:24:12.250+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\gmbal\\gmbal-api-only\\3.0.0-b023\\gmbal-api-only-3.0.0-b023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit-4.8.2",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c94f54227b08100974c36170dcb53329435fe5ad",
+    "jarFileModificationDate": "2014-05-27T18:27:01.873+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\junit\\junit\\4.8.2\\junit-4.8.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "442144fb304e0895e42527f0d796dc6a070afc49",
+    "jarFileModificationDate": "2013-12-03T10:15:57.308+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b49dbbd63bac98e1b02fd5ad398dea471cd41ed",
+    "jarFileModificationDate": "2013-12-03T10:15:54.811+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.sun.jersey.grizzly2",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "681aa039457264f5ff8a732819face4256f01c39",
+    "jarFileModificationDate": "2014-05-27T18:24:33.443+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.9.1\\jersey-grizzly2-1.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.glassfish.grizzly.http",
+    "version": {
+      "major": 2,
+      "minor": 1,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "aa477bd5b57367c344bf50f1f4af71a24a94ec9f",
+    "jarFileModificationDate": "2014-05-27T18:25:27.769+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-http\\2.1.2\\grizzly-http-2.1.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.glassfish.javax.servlet",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ab7db738667bea1b937efcf3a1845c0d28e6beaf",
+    "jarFileModificationDate": "2014-05-27T18:25:08.419+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\javax.servlet\\3.1\\javax.servlet-3.1.jar",
+    "javaRuntime": false
+  }
+]
