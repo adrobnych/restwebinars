@@ -10,7 +10,7 @@ public class UserMain {
 	public static void main(String[] args) {
 		
 		ed = UserExchangeDispatcher.createInstance();
-		System.out.println("Check rate: " + ed.convertUSDToUAH(10));
+		System.out.println("Check rate: " + ed.getRate());
 		
 	}
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="com.sysiq.restwebinars.restexchange1" project="restexchange1" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sysiq.restwebinars.restexchange1.UserTest" time="1.381">
+    <testcase name="testSetAndGetRate" classname="com.sysiq.restwebinars.restexchange1.UserTest" time="1.381"/>
+  </testsuite>
+  <testsuite name="com.sysiq.restwebinars.restexchange1.AdminTest" time="0.882">
+    <testcase name="testSetRate" classname="com.sysiq.restwebinars.restexchange1.AdminTest" time="0.451"/>
+    <testcase name="testSetRateError" classname="com.sysiq.restwebinars.restexchange1.AdminTest" time="0.431"/>
+  </testsuite>
+  <testsuite name="com.sysiq.restwebinars.restexchange1.MainTest" time="0.753">
+    <testcase name="testHelloWorld" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="0.372"/>
+    <testcase name="testApplicationWadl" classname="com.sysiq.restwebinars.restexchange1.MainTest" time="0.381"/>
+  </testsuite>
+</testrun>

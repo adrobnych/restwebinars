@@ -21,7 +21,7 @@ public class UserExchangeDispatcherSpec{
 	//brittle test - depends on already set rate by admin. we need more work on response codes and state machine 
 	@Test
 	public void testGetRate() {
-		assertTrue(ed.convertUSDToUAH(100) > 0.01);
+		assertTrue(ed.getRate() > 0.01);
 	}
 
 }

@@ -20,51 +20,24 @@ import com.sun.jersey.api.client.WebResource;
 public class UserExchangeDispatcher {
 	
 	private Client client = null;
-	private WebResource checkRateResource = null;
+	static UserExchangeDispatcher ed;
+	private WebResource convertResource = null;
 	
 	private UserExchangeDispatcher(){}
 	
 	public static UserExchangeDispatcher createInstance(){
-		UserExchangeDispatcher ed = new UserExchangeDispatcher();
-		ed.client = Client.create();
-		ed.checkRateResource = ed.client.resource("http://localhost:9998/checkrate");
-		
+		ed = new UserExchangeDispatcher();
+		ed.client = Client.create();		
 		return ed;
 	}
 
-	public double getRate() {
-		String responseCheckRate = checkRateResource.get(String.class);
+	public double convertUSDToUAH(double amount) {
+		ed.convertResource  = ed.client.resource("http://localhost:9998/amount_of_uah_from/" + amount + "/usd");
+		String responseAmount = convertResource.get(String.class);
 		System.out.println("***************************************************");
-		System.out.println(responseCheckRate);
-		
-		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-		String rateAsString = null;
-		double result = -1;
-		try {
-			DocumentBuilder builder = factory.newDocumentBuilder();
-			InputSource is = new InputSource(new StringReader(responseCheckRate));
-			Document doc = builder.parse(is);
-			NodeList list = doc.getElementsByTagName("item");
-			for(int i=0; i<list.getLength(); i++)
-				if((list.item(i).getTextContent().indexOf("UAH") != -1) && (list.item(i).getChildNodes().getLength() == 3)){
-						rateAsString = list.item(i).getChildNodes().item(2).getTextContent();	
-						System.out.println("-->"+rateAsString);
-				}
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
-		} catch (SAXException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		finally{
-			if(rateAsString == null)
-				 throw new RuntimeException("Failed : wrong responce " + responseCheckRate);
-			else 
-				result = new Double(rateAsString);
-		}
-		
-		return result;
+		System.out.println(responseAmount);
+		return new Double(responseAmount);
 	}
+
 
 }
