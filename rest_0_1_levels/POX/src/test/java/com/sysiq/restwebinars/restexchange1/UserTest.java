@@ -34,7 +34,7 @@ public class UserTest extends JerseyTest {
         assertEquals(204, response.getStatus());
         
         String responseConvertMoney = webResource.path("amount_of_uah_from/100/usd").get(String.class);
-        assertEquals("1255", responseConvertMoney);
+        assertEquals("1255.0", responseConvertMoney);
     }
 
 }

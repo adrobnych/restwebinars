@@ -417,3 +417,23 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2014-05-29 11:37:14,917 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2014-05-29 11:37:14,919 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-05-29 11:37:14,922 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-29 11:43:49,332 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:43:49,333 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-29 11:43:49,335 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:43:49,335 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-29 11:48:00,598 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:48:00,599 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-29 11:48:00,601 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:48:00,601 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-29 11:49:38,409 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:49:38,411 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-29 11:49:38,416 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:49:38,417 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-29 11:53:38,551 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:53:38,552 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-29 11:53:38,554 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:53:38,559 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
+2014-05-29 11:54:10,715 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:54:10,716 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-29 11:54:10,718 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-05-29 11:54:10,718 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Sites\sysiq\RESTwebinars\rest_0_1_levels\POX\src\test\resources
