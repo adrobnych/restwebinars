@@ -1,0 +1,5 @@
+package com.sysiq.restwebinars.user_client_spec;
+
+public class UserExchangeDispatcherSpec {
+
+}
