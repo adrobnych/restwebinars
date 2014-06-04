@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserExchangeDispatcherSpec" project="restexchange_user_client" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sysiq.restwebinars.user_client_spec.UserExchangeDispatcherSpec" time="0.021">
-    <testcase name="testGetRate" classname="com.sysiq.restwebinars.user_client_spec.UserExchangeDispatcherSpec" time="0.021"/>
-  </testsuite>
-</testrun>

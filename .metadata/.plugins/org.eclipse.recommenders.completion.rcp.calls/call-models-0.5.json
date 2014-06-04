@@ -23,5 +23,34 @@
     "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\POX\\src\\main\\java",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\POX\\src\\main\\java\u0027. Skipped."
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\lib\\jersey-client-1.18.1.jar": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\lib\\jersey-client-1.18.1.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\lib\\jersey-client-1.18.1.jar\u0027. Neither fingerprint \u002760e85d4f638fb444bcbbd9f8da83414fbdf731c3\u0027 nor symbolic name \u0027com.sun.jersey.client\u0027 are known."
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\src": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\restexchange_admin_client\\src\u0027. Skipped."
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\admin_client\\src": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\admin_client\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\admin_client\\src\u0027. Skipped."
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\user_client\\src": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\user_client\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_0_1_levels\\user_client\\src\u0027. Skipped."
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\rest_2_level\\src\\main\\java": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_2_level\\src\\main\\java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_2_level\\src\\main\\java\u0027. Skipped."
+  },
+  "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.18.1\\jersey-core-1.18.1.jar": {
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.18.1\\jersey-core-1.18.1.jar",
+    "status": "UNRESOLVED"
   }
 }

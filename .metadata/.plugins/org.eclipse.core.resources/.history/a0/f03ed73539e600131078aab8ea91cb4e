@@ -1,5 +1,0 @@
-package com.sun.jersey.samples.helloworld.resources;
-
-public class SetRateResource {
-
-}
