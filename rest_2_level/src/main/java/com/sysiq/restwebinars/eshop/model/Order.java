@@ -5,6 +5,7 @@ public class Order {
 	private String product_uid;
 	private String shop_url;
 	private int quantity;
+	private String status;
 	public String getProduct_uid() {
 		return product_uid;
 	}
@@ -22,6 +23,12 @@ public class Order {
 	}
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
 	}
 	
 	

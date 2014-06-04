@@ -20,11 +20,30 @@ public class OrderManager {
 	}
 
 	public String save(Order o) {
-		return App.SHOP_MANAGER.addOrder(o);
+		if(o.getQuantity() > 0 && o.getProduct_uid() != null && o.getShop_url() != null)
+			return App.SHOP_MANAGER.addOrder(o);
+		return null;
 	}
 
 	public Order find(String orderID) {
 		return App.SHOP_MANAGER.getByID(orderID);
+	}
+
+	public boolean update(String orderID, Order o) {
+		if(o.getQuantity() > 0 && o.getProduct_uid() != null && o.getShop_url() != null){
+			App.SHOP_MANAGER.changeOrder(orderID, o);
+			return true;
+		}
+		return false;
+	}
+
+	public boolean delete(String orderID) {
+		if(App.SHOP_MANAGER.getByID(orderID) != null){
+			App.SHOP_MANAGER.deleteOrder(orderID);
+			return true;
+		}
+		return false;
+		
 	}
 
 }

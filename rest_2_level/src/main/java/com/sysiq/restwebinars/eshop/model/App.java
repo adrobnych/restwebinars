@@ -23,4 +23,15 @@ public enum App {
 		return orders.get(orderID);
 	}
 
+	public void changeOrder(String orderID, Order new_o) {
+		Order o = orders.get(orderID);
+		if(o == null)
+			throw new RuntimeException("no order found");
+		orders.put(orderID, new_o);
+	}
+
+	public void deleteOrder(String orderID) {
+		orders.remove(orderID);
+	}
+
 }
