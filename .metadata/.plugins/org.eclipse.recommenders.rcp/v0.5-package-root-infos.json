@@ -182,19 +182,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "a3d1a9689f1c8e36ab64fb669df92076771c42f2",
-    "jarFileModificationDate": "2013-12-03T10:15:54.704+02:00",
-    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
-    "javaRuntime": true
-  },
-  {
     "symbolicName": "org.glassfish.grizzly.http-server",
     "version": {
       "major": 2,
@@ -206,6 +193,19 @@
     "jarFileModificationDate": "2014-06-03T21:21:46.280+03:00",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-http-server\\2.2.16\\grizzly-http-server-2.2.16.jar",
     "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a3d1a9689f1c8e36ab64fb669df92076771c42f2",
+    "jarFileModificationDate": "2013-12-03T10:15:54.704+02:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
   },
   {
     "symbolicName": "org.glassfish.grizzly.http-server",
@@ -247,19 +247,6 @@
     "javaRuntime": false
   },
   {
-    "symbolicName": "com.sun.jersey.grizzly2",
-    "version": {
-      "major": 1,
-      "minor": 18,
-      "micro": 1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "52eef00e4b4138830cbcee32ab3d41908831c984",
-    "jarFileModificationDate": "2014-06-03T21:21:44.980+03:00",
-    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.18.1\\jersey-grizzly2-1.18.1.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "org.glassfish.grizzly.http",
     "version": {
       "major": 2,
@@ -270,6 +257,19 @@
     "jarFileFingerprint": "1dd583627a7ae8ccfe0aef81fe7f366bf4d563c9",
     "jarFileModificationDate": "2014-06-03T21:21:45.868+03:00",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\grizzly\\grizzly-http\\2.2.16\\grizzly-http-2.2.16.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.sun.jersey.grizzly2",
+    "version": {
+      "major": 1,
+      "minor": 18,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "52eef00e4b4138830cbcee32ab3d41908831c984",
+    "jarFileModificationDate": "2014-06-03T21:21:44.980+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.18.1\\jersey-grizzly2-1.18.1.jar",
     "javaRuntime": false
   },
   {
@@ -650,19 +650,6 @@
     "javaRuntime": true
   },
   {
-    "symbolicName": "com.sun.jersey.grizzly2",
-    "version": {
-      "major": 1,
-      "minor": 9,
-      "micro": 1,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "681aa039457264f5ff8a732819face4256f01c39",
-    "jarFileModificationDate": "2014-05-27T18:24:33.443+03:00",
-    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.9.1\\jersey-grizzly2-1.9.1.jar",
-    "javaRuntime": false
-  },
-  {
     "symbolicName": "com.sun.jersey.jersey-test-framework.core",
     "version": {
       "major": 1,
@@ -673,6 +660,19 @@
     "jarFileFingerprint": "2bafdc4c438b5f1c46f1307f02a44e86f3b25168",
     "jarFileModificationDate": "2014-06-03T21:21:46.606+03:00",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-test-framework\\jersey-test-framework-core\\1.18.1\\jersey-test-framework-core-1.18.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.sun.jersey.grizzly2",
+    "version": {
+      "major": 1,
+      "minor": 9,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "681aa039457264f5ff8a732819face4256f01c39",
+    "jarFileModificationDate": "2014-05-27T18:24:33.443+03:00",
+    "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-grizzly2\\1.9.1\\jersey-grizzly2-1.9.1.jar",
     "javaRuntime": false
   }
 ]

@@ -31,4 +31,11 @@
 <fullyQualifiedTypeName name="java.net.URI"/>
 <fullyQualifiedTypeName name="javax.ws.rs.WebApplicationException"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.CacheControl"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.EntityTag"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Request"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
 </qualifiedTypeNameHistroy>

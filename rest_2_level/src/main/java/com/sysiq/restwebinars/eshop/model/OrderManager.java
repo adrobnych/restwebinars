@@ -45,5 +45,12 @@ public class OrderManager {
 		return false;
 		
 	}
+	
+	public String calculateETAG(String orderID){
+		Order o = find(orderID);
+		if(o != null)		
+			return "" + o.getProduct_uid() + o.getShop_url() + o.getShop_url() + "[" + o.getQuantity() + "]" +  o.getStatus();
+		return null;
+	}
 
 }

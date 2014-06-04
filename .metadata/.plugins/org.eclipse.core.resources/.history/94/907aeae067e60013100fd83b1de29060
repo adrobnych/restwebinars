@@ -1,5 +1,0 @@
-package com.sysiq.restwebinars.restexchange1.model.managers;
-
-public enum App {
-
-}

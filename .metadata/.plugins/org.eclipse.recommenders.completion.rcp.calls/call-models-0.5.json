@@ -50,7 +50,8 @@
     "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_2_level\\src\\main\\java\u0027. Skipped."
   },
   "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.18.1\\jersey-core-1.18.1.jar": {
+    "coordinate": "com.sun.jersey:com.sun.jersey.core:zip:call:1.0.0",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.18.1\\jersey-core-1.18.1.jar",
-    "status": "UNRESOLVED"
+    "status": "RESOLVED"
   }
 }
