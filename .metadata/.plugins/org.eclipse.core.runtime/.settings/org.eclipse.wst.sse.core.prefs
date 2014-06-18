@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=helloworld,restexchange1,restexchange_admin_client,restexchange_user_client,rest_2_level,rest_3_level
+task-tag-projects-already-scanned=helloworld,restexchange1,restexchange_admin_client,restexchange_user_client,rest_2_level,rest_3_level,rest_cache

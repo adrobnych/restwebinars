@@ -143,6 +143,19 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "xstream",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 7,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bce3282142b63068260f021fcbe48b72e8d71a1a",
+    "jarFileModificationDate": "2014-06-03T22:23:14.044+03:00",
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_3_level\\lib\\xstream-1.4.7.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "com.sun.jersey.grizzly2-servlet",
     "version": {
       "major": 1,
@@ -608,6 +621,19 @@
     "jarFileFingerprint": "14f077191ad7ec73004ca58de2c90a2137f1d882",
     "jarFileModificationDate": "2014-05-27T18:24:12.250+03:00",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\org\\glassfish\\gmbal\\gmbal-api-only\\3.0.0-b023\\gmbal-api-only-3.0.0-b023.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "xstream",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 7,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bce3282142b63068260f021fcbe48b72e8d71a1a",
+    "jarFileModificationDate": "2014-06-03T22:23:14.044+03:00",
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_cache\\lib\\xstream-1.4.7.jar",
     "javaRuntime": false
   },
   {

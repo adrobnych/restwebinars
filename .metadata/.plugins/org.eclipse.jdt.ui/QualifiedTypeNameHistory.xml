@@ -3,12 +3,9 @@
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
-<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
 <fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
 <fullyQualifiedTypeName name="java.io.StringReader"/>
 <fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
-<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
 <fullyQualifiedTypeName name="com.sysiq.restwebinars.restexchange1.model.managers.App"/>
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
@@ -23,7 +20,6 @@
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.UUID"/>
 <fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.OrderManager"/>
 <fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.resources.OrderResource"/>
@@ -38,4 +34,19 @@
 <fullyQualifiedTypeName name="javax.ws.rs.core.EntityTag"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Request"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.statemachine.PaymentAcceptedState"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+<fullyQualifiedTypeName name="javax.xml.transform.Transformer"/>
+<fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.statemachine.NewOrderState"/>
+<fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.OrderWithState"/>
+<fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.statemachine.State"/>
+<fullyQualifiedTypeName name="com.sysiq.restwebinars.eshop.model.statemachine.Action"/>
 </qualifiedTypeNameHistroy>

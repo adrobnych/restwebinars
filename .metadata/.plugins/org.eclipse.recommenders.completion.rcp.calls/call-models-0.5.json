@@ -53,5 +53,10 @@
     "coordinate": "com.sun.jersey:com.sun.jersey.core:zip:call:1.0.0",
     "location": "C:\\Users\\a.drobnych\\.m2\\repository\\com\\sun\\jersey\\jersey-core\\1.18.1\\jersey-core-1.18.1.jar",
     "status": "RESOLVED"
+  },
+  "C:\\Sites\\sysiq\\RESTwebinars\\rest_3_level\\src\\main\\java": {
+    "location": "C:\\Sites\\sysiq\\RESTwebinars\\rest_3_level\\src\\main\\java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Sites\\sysiq\\RESTwebinars\\rest_3_level\\src\\main\\java\u0027. Skipped."
   }
 }
