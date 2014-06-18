@@ -96,20 +96,28 @@ public class OrderResource {
     @Path("/{orderId}")
     public Response getOrder(@PathParam("orderId") String orderID, @Context Request request) {
     	
-    	EntityTag etag = new EntityTag(om.calculateETAG(orderID));
-    	Response.ResponseBuilder responseBuilder = request.evaluatePreconditions(etag);
-
-    	if (responseBuilder != null) {
-    		// Etag match
-    		//Order has not changed..returning unmodified response code
-    		return responseBuilder.build();
-    	}
+    	EntityTag etag = null;
+    	Response.ResponseBuilder responseBuilder = null;
     	
     	OrderWithState ows = om.find(orderID);
     	
     	if (ows != null)
 			try {
-				return Response.ok(decorateWithDAP(om.toXML(ows.getOrder()).toString(), ows.getState(), orderID)).tag(etag).build();
+				
+				etag = new EntityTag(om.calculateETAG(orderID));
+		    	responseBuilder = request.evaluatePreconditions(etag);
+
+		    	if (responseBuilder != null) {
+		    		// Etag match
+		    		//Order has not changed..returning unmodified response code
+		    		return responseBuilder.build();
+		    	}
+				
+				CacheControl cc = new CacheControl();
+				cc.setPrivate(true);
+		        cc.setMaxAge(0);
+				
+				return Response.ok(decorateWithDAP(om.toXML(ows.getOrder()).toString(), ows.getState(), orderID)).tag(etag).cacheControl(cc).build();
 			} catch (ParserConfigurationException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

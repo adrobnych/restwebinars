@@ -50,6 +50,7 @@ public class OrderManager {
 	
 	public String calculateETAG(String orderID){
 		OrderWithState ows = find(orderID);
+		if(ows == null) return null;
 		Order o = ows.getOrder();
 		if(o != null)		
 			return "" + o.getProduct_uid() + o.getShop_url() + o.getShop_url() + "[" + o.getQuantity() + "]" +  o.getStatus();
